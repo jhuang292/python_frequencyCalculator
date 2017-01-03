@@ -1,0 +1,14 @@
+This python program will calculate the frequency of letters in the English language.The program will parse a file to determine the relative frequency of each letter in typical English language usage:
+     1. Prompt the user for the path to a file.
+        1. Remember, trying to open a file in read mode when the file doesn't exist will cause your program to crash! Make sure you check whether the file exists.
+        2. If the file doesn't exist, display an error message and quit the program.
+     2. Read the file, line by line, and count how many times each letter occurs.
+        1. Our files may get quite large, so we recommend not reading in the whole file at once.
+        2. To determine whether a string contains only letters, you may want to use isdigit()'s cousin, isalpha().
+        3. You may use any sort of structure you like to store the letter counts.
+        4. We don't care about case -A should be counted in the same place as a.
+        5. Helpful hint: if you want to convert between a letter (like A) and its ASCII value (A is 65 in ASCII) to use as an index into a list, check out the function ord(c), where c is a string with a single character.
+     3. Calculate and display the relative frequency of each letter.
+        1. The relative frequency of a letter is just how many times that letter appeared, divided the total number of letters counted.
+        2. You don't need to control how many decimal places are shown, but letters should be displayed in alphabetical order (A-Z).
+        3. For the purposes of this assignment, you should display capital letters (even though the counts are case-insensitive). 
